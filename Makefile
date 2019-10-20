@@ -1,6 +1,10 @@
-build: hello.c otro.c
-	gcc -o hello hello.c
- 	gcc -o otro otro.c
+build: hello otro
+
+hello: hello.c
+        gcc -o hello hello.c
+
+otro: otro.c
+        gcc -o otro otro.c
 
 clean:
-	rm -f hello otro
+        rm -f hello otro
