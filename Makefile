@@ -5,5 +5,5 @@ otro:
   gcc -o otro otro.c
 
 clean:
-	rm -f hello otro
+  rm -f hello otro
  
